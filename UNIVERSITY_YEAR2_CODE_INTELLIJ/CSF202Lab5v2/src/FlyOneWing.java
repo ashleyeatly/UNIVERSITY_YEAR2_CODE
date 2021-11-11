@@ -3,7 +3,7 @@ public class FlyOneWing implements FlyBehaviour {
 
 	@Override
 	public void fly() {
-		System.out.println("Fly:NOne Wing?");
+		System.out.println("Fly: One Wing?");
 
 	}
 

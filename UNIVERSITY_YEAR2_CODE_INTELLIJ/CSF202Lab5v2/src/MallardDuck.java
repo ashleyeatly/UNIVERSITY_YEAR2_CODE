@@ -7,16 +7,6 @@ public class MallardDuck extends Duck{
 		quackBehaviour = new Quack();
 	}
 
-	@Override
-	public void setFlyBehaviour(FlyBehaviour behaviour) {
-
-	}
-
-	@Override
-	public void setQuackBehaviour(QuackBehaviour behaviour) {
-
-	}
-
 	public void display()
 	{
 		System.out.println("Display: I look like a lovely Mallard Duck");

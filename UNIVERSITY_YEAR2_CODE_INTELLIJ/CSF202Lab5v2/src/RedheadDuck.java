@@ -7,11 +7,6 @@ public class RedheadDuck extends Duck{
 
 	}
 
-	@Override
-	public void setQuackBehaviour(QuackBehaviour behaviour) {
-
-	}
-
 	public RedheadDuck() {
 		flyBehaviour = new FlyWithWings();
 		quackBehaviour = new Quack();

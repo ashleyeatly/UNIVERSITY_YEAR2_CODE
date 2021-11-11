@@ -6,20 +6,8 @@ public class BaldDuck extends Duck{
 		flyBehaviour = new FlyWithWings();
 		quackBehaviour = new Quack();
 	}
-
-	@Override
-	public void setFlyBehaviour(FlyBehaviour behaviour) {
-		flyBehaviour = behaviour;
-
-	}
-
-	@Override
-	public void setQuackBehaviour(QuackBehaviour behaviour) {
-		quackBehaviour = behaviour;
-	}
-
 	public void display()
 	{
-		System.out.println("Display: I look like a lovely Mallard Duck");
+		System.out.println("Display: I look like a lovely Bald Duck");
 	}
 }

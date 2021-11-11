@@ -18,16 +18,6 @@ public class RubberDuck extends Duck{
 //		System.out.println("Fly: I CANNOT FLY");
 //	}
 
-	@Override
-	public void setFlyBehaviour(FlyBehaviour behaviour) {
-
-	}
-
-	@Override
-	public void setQuackBehaviour(QuackBehaviour behaviour) {
-
-	}
-
 	public void display()
 	{
 		System.out.println("Display: I look like a majestic yellow plastic duck.");

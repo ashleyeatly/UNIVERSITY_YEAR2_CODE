@@ -1,4 +1,4 @@
-public abstract class Duck{
+public abstract class Duck {
 
 	// 5.1.7 protected fly and quack behaviour
 	protected FlyBehaviour flyBehaviour;
@@ -27,10 +27,14 @@ public abstract class Duck{
 	}
 
 	// 5.2.1
-	public abstract void setFlyBehaviour(FlyBehaviour behaviour);
+	public void setFlyBehaviour(FlyBehaviour behaviour) {
+		flyBehaviour = behaviour;
+	}
 
 	// 5.2.1
-	public abstract void setQuackBehaviour(QuackBehaviour behaviour);
+	public void setQuackBehaviour(QuackBehaviour behaviour) {
+		quackBehaviour = behaviour;
+	}
 
 	public abstract void display();
 }

@@ -17,17 +17,6 @@ public class DecoyDuck extends Duck{
 //	{
 //		System.out.println("Quack: I CANNOT QUACK");
 //	}
-
-	@Override
-	public void setFlyBehaviour(FlyBehaviour behaviour) {
-
-	}
-
-	@Override
-	public void setQuackBehaviour(QuackBehaviour behaviour) {
-
-	}
-
 	public void display()
 	{
 		System.out.println("Display: I only look like a duck!");
