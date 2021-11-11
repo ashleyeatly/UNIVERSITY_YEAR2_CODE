@@ -18,22 +18,23 @@ public abstract class Duck {
 //	}
 	// 5.1.8
 	public void performFly() {
-		flyBehaviour.fly();
+
+		this.flyBehaviour.fly();
 	}
 
 	// 5.1.8
 	public void performQuack() {
-		quackBehaviour.quack();
+		this.quackBehaviour.quack();
 	}
 
 	// 5.2.1
 	public void setFlyBehaviour(FlyBehaviour behaviour) {
-		flyBehaviour = behaviour;
+		this.flyBehaviour = behaviour;
 	}
 
 	// 5.2.1
 	public void setQuackBehaviour(QuackBehaviour behaviour) {
-		quackBehaviour = behaviour;
+		this.quackBehaviour = behaviour;
 	}
 
 	public abstract void display();
